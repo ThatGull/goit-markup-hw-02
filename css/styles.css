@@ -35,7 +35,7 @@ a {
     letter-spacing: 0.02em;
     
     color: #212121;
-    
+
  }
  .upnavy-item span {
     left: 453px;
@@ -50,7 +50,7 @@ a {
  .upnavy-contact {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.17;
+    line-height: 1.71;
     letter-spacing: 0.02em;
     
     color: #2196F3;  
@@ -84,7 +84,7 @@ color: #757575;
 
 .downnavy-contact {
     font-size: 14px;    
-    line-height: 1.17;
+    line-height: 1.71;
     letter-spacing: 0.02em;
     color: rgba(255, 255, 255, 0.6); 
     font-weight: normal;   
@@ -156,12 +156,15 @@ color: #757575;
     color: #212121;
 }
 .worker {
-    font-weight: 700;
-    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
     line-height: 1.17;
-    letter-spacing: 0.03em;
     text-align: center;
-    color: #212121;   
+    letter-spacing: 0.03em;
+    
+    color: #212121; 
 }
 .profession {
     font-weight: 400;
@@ -171,30 +174,26 @@ color: #757575;
     text-align: center;
     color: #757575;
 }
-.allbutton {
+.allbutton:hover, :focus {
 
     background: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
+    border-radius: 4px; 
     cursor: pointer;
-    line-height: 1.63;
-    letter-spacing: 0.03em;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1;
-    text-align: center;
-    color: #FFFFFF;     
+    color: #FFFFFF;
 }
 .topbutton:hover, :focus {
-    cursor: pointer;
-    background: #F5F4FA;
-    border-radius: 4px;   
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.63;
-    letter-spacing: 0.03em;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    
     text-align: center;
+    letter-spacing: 0.03em;
+    
     color: #212121;
+    cursor: pointer;
 }
 .title {
     font-weight: 700;
@@ -206,6 +205,23 @@ color: #757575;
 .text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.16;
+    line-height: 1.17;
     color: #757575;
+}
+.link1 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.17;
+    color: #2196F3;
+}
+.link2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #212121;
 }
