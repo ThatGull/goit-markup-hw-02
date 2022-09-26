@@ -1,4 +1,4 @@
- .body {
+ body {
     font-style: normal;
     font-family: 'Roboto';
     letter-spacing: 0.03em;
@@ -8,32 +8,30 @@ ul {
 }
 a {
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
 }
+
   .logo {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     color:black;
 }
 .logo span {
   color: #2196f3;
 }
- .upnavy {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1;
-    letter-spacing: 0.02em;
-    
-    color: #212121; 
-     
- }
+
  .upnavy-item {
     left: 548px;
     top: 32px;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     
     color: #212121;
@@ -44,15 +42,15 @@ a {
     top: 32px;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1;
-    letter-spacing: 0.02em;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 
     color: #2196F3;
  }
  .upnavy-contact {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     
     color: #2196F3;  
@@ -60,7 +58,7 @@ a {
  .upnavy-contact span {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1;
+    line-height: 1.17;
     letter-spacing: 0.02em;
 
 color: #757575;
@@ -71,20 +69,20 @@ color: #757575;
 }
 .downadress {
     font-size: 14px;
-    line-height: 1.4;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 .downnavy-contact span {    
     font-size: 14px;
-    line-height: 1.4;
+    line-height: 1.17;
     color: #FFFFFF;
+    letter-spacing: 0.02em;
 }
 
 .downnavy-contact {
     font-size: 14px;    
-    line-height: 1.4;
-
-    
-    
+    line-height: 1.17;
+    letter-spacing: 0.02em;
     color: rgba(255, 255, 255, 0.6);    
 }
 .downlogo {
@@ -92,15 +90,29 @@ color: #757575;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1;
+    line-height: 1.17;
     color:white; 
 }
 .downlogo span {
     color: #2196f3;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
   }
 .maintitle {
 
     background: #2F303A; 
+}
+.buybtn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: #2196F3;
+    color: white;
+    cursor: pointer;
 }
 .efficiency {
     background: #2F303A;
@@ -108,7 +120,7 @@ color: #757575;
     height: 120px;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.16;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -118,7 +130,8 @@ color: #757575;
 .features {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
 
@@ -126,28 +139,31 @@ color: #757575;
 .features-details {
     font-weight: 400;
     font-size: 14px;
-    line-height: 1;
-    
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: #757575;   
 }
 .profile {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-align: center;
     color: #212121;
 }
 .worker {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-align: center;
     color: #212121;   
 }
 .profession {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-align: center;
     color: #757575;
 }
@@ -171,7 +187,8 @@ color: #757575;
     border-radius: 4px;   
     font-weight: 500;
     font-size: 16px;
-    line-height: 1;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
     text-align: center;
     color: #212121;
 }
