@@ -53,6 +53,7 @@ a {
     color: #2196F3;
  }
  .upnavy-contact {
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.71;
@@ -61,6 +62,7 @@ a {
     color: #2196F3;  
  }
  .upnavy-contact span {
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
@@ -68,6 +70,7 @@ a {
     color: #757575;
  }
  .mail {
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -77,6 +80,7 @@ a {
 color: #2196F3;
  }
 .tel {
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -88,6 +92,7 @@ color: #2196F3;
     background: #2F303A;
 }
 .downadress {
+    font-family: 'Roboto';
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -96,6 +101,7 @@ color: #2196F3;
 
 }
 .downnavy-contact span {    
+    font-family: 'Roboto';
     font-size: 14px;
     line-height: 1.17;
     color: #FFFFFF;
@@ -104,6 +110,7 @@ color: #2196F3;
 }
 
 .downnavy-contact {
+    font-family: 'Roboto';
     font-size: 14px;    
     line-height: 1.71;
     letter-spacing: 0.02em;
@@ -128,7 +135,7 @@ color: #2196F3;
     background: #2F303A; 
 }
 .buybtn {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -140,6 +147,7 @@ color: #2196F3;
     cursor: pointer;
 }
 .efficiency {
+    font-family: 'Roboto';
     background: #2F303A;
     width: 696px;
     height: 120px;
@@ -153,6 +161,7 @@ color: #2196F3;
     color: #FFFFFF; 
 }
 .features {
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
@@ -162,6 +171,7 @@ color: #2196F3;
 
 }
 .features-details {
+    font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -169,6 +179,7 @@ color: #2196F3;
     color: #757575;   
 }
 .profile {
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -177,6 +188,7 @@ color: #2196F3;
     color: #212121;
 }
 .worker {
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -188,6 +200,7 @@ color: #2196F3;
     color: #212121; 
 }
 .profession {
+    font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
     line-height: 1.17;
@@ -212,7 +225,7 @@ color: #2196F3;
 
 
 .topbutton {
-
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -225,21 +238,33 @@ color: #2196F3;
 
 }
 .topbutton:hover,
-.topbutton:focus
+.topbutton:focus {
+    background-color:white
+}
+
 .title {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;    
+    color: #212121; 
 }
 .text {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.17;
+    line-height: 1.875;
+
+    letter-spacing: 0.03em;
+    
     color: #757575;
 }
 .link1 {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -248,6 +273,7 @@ color: #2196F3;
     color: #2196F3;
 }
 .link2 {
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
